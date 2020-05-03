@@ -1,6 +1,6 @@
 {
   "name": "react-native-lottie-sequence",
-  "version": "1.0.0",
+  "version": "0.1.4",
   "description": "A tiny package for stringing together Lottie animations",
   "author": "tn12787",
   "license": "MIT",
@@ -19,7 +19,9 @@
     "test:build": "run-s build",
     "test:unit": "cross-env CI=1 jest --coverage",
     "test:snaps": "jest -u",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "preversion": "yarn test",
+    "postversion": "git push --tags && yarn publish . --tag $npm_package_version && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "peerDependencies": {
     "react": "^16.0.0",
