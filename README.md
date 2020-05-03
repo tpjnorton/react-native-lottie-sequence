@@ -35,12 +35,12 @@ const MyAnimationSequence = () => {
 
 ### Props
 
-| prop name         | values                  | required | default  | description                                                                                                                                                                   |
-| ----------------- | ----------------------- | -------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| sources           | Array of Lottie sources | yes      | []       | Sequence of source animations to play.                                                                                                                                        |
-| autoPlay          | true, false             | no       | false    | Whether to auto-play each animation.                                                                                                                                          |
-| loopMode          | 'none', 'last', 'all'   | no       | 'none'   | What kind of sequence looping behaviour is wanted. 'none' plays the sequence once, 'last' loops the last animation in the sequence only, and 'all' loops the entire sequence. |
-| onAnimationFinish | function                | no       | () => {} | Callback fired at the end of each animation in the sequence.                                                                                                                  |
+| prop name           | values                      | required | default    | description                                                                                                                                                                   |
+| ------------------- | --------------------------- | -------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `sources`           | Array of Lottie sources     | yes      | `[]`       | Sequence of source animations to play.                                                                                                                                        |
+| `autoPlay`          | `true`, `false`             | no       | `false`    | Whether to auto-play each animation.                                                                                                                                          |
+| `loopMode`          | `'none'`, `'last'`, `'all'` | no       | `'none'`   | What kind of sequence looping behaviour is wanted. 'none' plays the sequence once, 'last' loops the last animation in the sequence only, and 'all' loops the entire sequence. |
+| `onAnimationFinish` | function                    | no       | `() => {}` | Callback fired at the end of each animation in the sequence.                                                                                                                  |
 
 ## License
 
