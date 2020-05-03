@@ -26,7 +26,7 @@ describe('LottieSequence', () => {
   });
 
   describe('Contents', () => {
-    it('should render a button', () => {
+    it('should render a Lottie animation with sources + props provided', () => {
       const wrapper = shallow(<LottieSequence sources={[testSource]} />);
 
       const renderedAnimation = wrapper.find(Lottie);

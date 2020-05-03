@@ -2,7 +2,7 @@
 
 exports[`LottieSequence Rendering should match visible snapshot: LottieSequence Snapshot 1`] = `
 <LottieView
-  autoPlay={true}
+  autoPlay={false}
   autoSize={false}
   enableMergePathsAndroidForKitKatAndAbove={false}
   loop={false}

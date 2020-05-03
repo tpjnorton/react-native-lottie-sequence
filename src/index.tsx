@@ -46,11 +46,13 @@ type LottieSource = AnimationObject | { uri: string } | string;
 interface LottieSequenceProps {
   sources: LottieSource[];
   loopMode?: LoopMode;
+  autoPlay?: boolean;
+  onAnimationFinish?: () => void;
 }
 
 const LottieSequence = (props: LottieSequenceProps) => {
   const [index, setIndex] = useState(0);
-  const { sources, loopMode } = props;
+  const { sources, loopMode, autoPlay, onAnimationFinish } = props;
   const currentAnim = sources?.[index];
   const sequenceLength = sources?.length;
 
@@ -64,9 +66,10 @@ const LottieSequence = (props: LottieSequenceProps) => {
   return (
     <Lottie
       source={currentAnim}
-      autoPlay
+      autoPlay={autoPlay}
       loop={loop}
       onAnimationFinish={() => {
+        onAnimationFinish?.();
         setIndex(nextAnimationIndex);
       }}
     />
@@ -76,6 +79,8 @@ const LottieSequence = (props: LottieSequenceProps) => {
 LottieSequence.defaultProps = {
   sources: [],
   loopMode: 'none',
+  autoPlay: false,
+  onAnimationFinish: () => {},
 };
 
 export type { LoopMode };

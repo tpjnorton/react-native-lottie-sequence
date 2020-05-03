@@ -3,7 +3,7 @@ module.exports = {
   preset: 'jest-expo',
   coverageThreshold: {
     global: {
-      statements: 80,
+      statements: 70,
     },
   },
   roots: ['<rootDir>/src/'],
