@@ -1,6 +1,6 @@
 {
   "name": "react-native-lottie-sequence",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "✨A tiny package for stringing together Lottie animations ✨",
   "author": "tn12787",
   "license": "MIT",
@@ -22,8 +22,8 @@
     "test:watch": "jest --watchAll"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
     "lottie-react-native": ">=~2.6.1",
+    "react": "^16.0.0",
     "react-native": "@>=0.46"
   },
   "devDependencies": {
