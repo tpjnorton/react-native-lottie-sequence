@@ -23,13 +23,13 @@ npm install --save react-native-lottie-sequence
 ```tsx
 import React, { Component } from 'react';
 
-import AnimationSequence from 'react-native-lottie-sequence';
+import LottieSequence from 'react-native-lottie-sequence';
 
 import animation1 from './animation1.json';
 import animation2 from './animation2.json';
 
 const MyAnimationSequence = () => {
-  return <AnimationSequence sources={[animation1, animation2]} loopMode={'all'} />;
+  return <LottieSequence sources={[animation1, animation2]} loopMode={'all'} />;
 };
 ```
 
