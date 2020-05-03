@@ -1,6 +1,6 @@
 {
   "name": "react-native-lottie-sequence",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A tiny package for stringing together Lottie animations",
   "author": "tn12787",
   "license": "MIT",
