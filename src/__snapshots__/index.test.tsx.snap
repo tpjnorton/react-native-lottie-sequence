@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LottieSequence Rendering should match visible snapshot: LottieSequence Snapshot 1`] = `
+<LottieView
+  autoPlay={true}
+  autoSize={false}
+  enableMergePathsAndroidForKitKatAndAbove={false}
+  loop={false}
+  onAnimationFinish={[Function]}
+  progress={0}
+  resizeMode="contain"
+  source={
+    Object {
+      "assets": Array [],
+      "ddd": 0,
+      "fr": 60,
+      "h": 2200,
+      "ip": 0,
+      "layers": Array [],
+      "nm": "Welcome",
+      "op": 297,
+      "v": "5.6.6",
+      "w": 2200,
+    }
+  }
+  speed={1}
+/>
+`;
