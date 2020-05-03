@@ -21,7 +21,7 @@ npm install --save react-native-lottie-sequence
 ## Usage
 
 ```tsx
-import React, { Component } from 'react';
+import React from 'react';
 
 import LottieSequence from 'react-native-lottie-sequence';
 
