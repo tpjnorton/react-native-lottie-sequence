@@ -1,6 +1,6 @@
 # react-native-lottie-sequence
 
-✨A tiny package for stringing together Lottie animations, written in typescript ✨
+✨A tiny package for stringing together Lottie animations, written in TypeScript ✨
 
 [![NPM](https://img.shields.io/npm/v/react-native-lottie-sequence.svg)](https://www.npmjs.com/package/react-native-lottie-sequence) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

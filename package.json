@@ -8,6 +8,18 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "keywords": [
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "animation",
+    "sequence",
+    "lottie"
+  ],
   "engines": {
     "node": ">=10"
   },
